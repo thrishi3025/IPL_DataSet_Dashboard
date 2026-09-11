@@ -4,7 +4,7 @@ import pandas as pd
 st.title("IPL Data Analysis")
 
 # Load Dataset
-df = pd.read_csv(r"D:\ETA\IPL_Streamlit_Project\IPL_Matches_Data_2008_2026.csv")
+df = pd.read_csv("IPL_Matches_Data_2008_2026.csv")
 
 # Calculate Total Runs
 df["total_runs"] = (
