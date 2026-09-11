@@ -29,7 +29,7 @@ if st.button("Login"):
 
         st.success("Login successful!")
 
-        st.switch_page("pages/1_About_Project.py")
+        st.switch_page("pages/1_About_project.py")
 
     else:
         st.error("Invalid username or password.")
