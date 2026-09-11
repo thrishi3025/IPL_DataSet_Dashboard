@@ -24,7 +24,7 @@ password = st.text_input(
 
 if st.button("Login"):
 
-    if username == "Hemasree" and password == "Hr!17@3@8":
+    if username == "Thrishika" and password == "thrishika4152":
         st.session_state.logged_in = True
 
         st.success("Login successful!")
